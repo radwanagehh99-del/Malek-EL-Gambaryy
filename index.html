@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ملك الجمبري | King Of Shrimp</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071b2a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 45px 15px;
+    background: linear-gradient(135deg, #061522, #17445b);
+    border-bottom: 3px solid #e5a33c;
+}
+
+header h1 {
+    color: #f5b942;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+header p {
+    color: #ddd;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.welcome h2 {
+    color: #f5b942;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+.welcome p {
+    color: #ccc;
+}
+
+.menu {
+    padding: 25px 7%;
+}
+
+.menu h2 {
+    color: #f5b942;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 27px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.food-card {
+    background: #123348;
+    border: 1px solid #e5a33c;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+}
+
+.food-card img {
+    width: 100%;
+    aspect-ratio: 15 / 20;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    background: #294354;
+}
+
+footer {
+    margin-top: 45px;
+    padding: 30px 15px;
+    text-align: center;
+    background: #04121e;
+    border-top: 2px solid #e5a33c;
+}
+
+footer h2 {
+    color: #f5b942;
+    margin-bottom: 10px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .menu {
+        padding: 20px 5%;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🦐 ملك الجمبري</h1>
+    <p>KING OF SHRIMP</p>
+</header>
+
+<div class="welcome">
+    <h2>أهلاً بيكم في ملك الجمبري</h2>
+    <p>Our Menu</p>
+</div>
+
+<section class="menu">
+
+    <h2>منيو المطعم</h2>
+
+    <div class="menu-grid">
+
+        <!-- الصورة الأولى -->
+        <div class="food-card">
+            <img src="WhatsApp Image 2026-11-03 at 12.34.41 PM.jpeg" alt="Menu Image 1">
+        </div>
+
+        <!-- الصورة الثانية -->
+        <div class="food-card">
+            <img src="m.jpeg" alt="Menu Image 2">
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <h2>🦐 ملك الجمبري</h2>
+    <p>KING OF SHRIMP</p>
+</footer>
+
+</body>
+</html>
